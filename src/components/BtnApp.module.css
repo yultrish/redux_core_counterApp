@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem ;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 20vh;
+    background-color: wheat;
+    /* color: aliceblue; */
+    padding: 6rem 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.incDec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    /* margin: auto; */
+
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 7px;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+}
+
+.resetBtn{
+    padding: 0.7rem 2.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(147, 147, 181);
+    color: aliceblue;
+}
